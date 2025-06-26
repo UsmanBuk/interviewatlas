@@ -1,18 +1,18 @@
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Home from "./Home";
+import CompanyDetail from "./CompanyDetail";
 
-const Index = () => {
+const CompanyDetailPage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1">
-        <Home />
+        <CompanyDetail />
       </main>
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default CompanyDetailPage;
