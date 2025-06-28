@@ -51,7 +51,7 @@ export const hiringData: HiringEntry[] = [
       },
       {
         stageName: "Final Interview",
-        description: "A 60-minute conversation with our CEO focusing on leadership, culture fit, and your vision for the role.",
+        description: "A 60-minute conversation with the CEO focusing on leadership, culture fit, and your vision for the role. They will also ask technical questions about production deployments (dev to prod environment processes), production changes and feature flags usage, logging and monitoring with tools like Grafana, Prometheus, and CloudWatch. You'll also be asked to walk through and explain your code from the Coderbyte challenge.",
         expectedDuration: "45–60 minutes",
         format: "Video call"
       }
