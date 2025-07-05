@@ -45,7 +45,8 @@ export const hiringData: HiringEntry[] = [
           taskName: "In-Memory Ledger Implementation",
           platform: "Python (shared screen)",
           duration: "90 minutes",
-          description: "You'll work with a Monzo engineer to implement missing functionality in an InMemoryLedger class. The challenge involves implementing methods like balance_at() for point-in-time balance queries, and transaction management (begin, commit, rollback) with support for nested transactions. The focus is on collaborative problem-solving, code quality, and handling edge cases like invalid entry IDs and transaction errors."
+          description: "You'll work with a Monzo engineer to implement missing functionality in an InMemoryLedger class. The challenge involves implementing methods like balance_at() for point-in-time balance queries, and transaction management (begin, commit, rollback) with support for nested transactions. The focus is on collaborative problem-solving, code quality, and handling edge cases like invalid entry IDs and transaction errors.\n\n**Code Files You'll Work With:**\n• ledger.py - Main implementation file with InMemoryLedger class\n• test_ledger.py - Comprehensive test suite covering all functionality\n• README.md - Project documentation and requirements",
+          link: "https://github.com/monzo/interview-ledger-challenge"
         }
       }
     ]
