@@ -28,7 +28,28 @@ const ProcessStage = ({ stage, stageNumber }: ProcessStageProps) => {
         </div>
       </CardHeader>
       <CardContent className="space-y-4">
-        <p className="text-muted-foreground">{stage.description}</p>
+        <div className="text-muted-foreground space-y-3">
+          {stage.description.split('\n\n').map((section, index) => (
+            <div key={index}>
+              {section.split('\n').map((line, lineIndex) => (
+                <div key={lineIndex} className={lineIndex > 0 ? 'mt-1' : ''}>
+                  {line.startsWith('**') && line.endsWith('**') ? (
+                    <h4 className="font-semibold text-foreground mb-2">
+                      {line.slice(2, -2)}
+                    </h4>
+                  ) : line.startsWith('•') ? (
+                    <div className="flex items-start gap-2 ml-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span className="flex-1">{line.slice(2)}</span>
+                    </div>
+                  ) : (
+                    <p className="leading-relaxed">{line}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
         
         <div className="flex items-center gap-2">
           <Video className="w-4 h-4 text-muted-foreground" />
