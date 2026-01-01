@@ -34,7 +34,7 @@ InterviewAtlas is an open-source platform that provides detailed, crowd-sourced 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/interview-atlas.git
+git clone https://github.com/UsmanBuk/interview-atlas.git
 
 # Navigate to the project directory
 cd interview-atlas
@@ -143,9 +143,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💬 Community
 
-- 🐛 [Report Issues](https://github.com/YOUR_USERNAME/interview-atlas/issues)
-- 💡 [Request Features](https://github.com/YOUR_USERNAME/interview-atlas/issues/new?template=feature_request.md)
-- 🏢 [Add a Company](https://github.com/YOUR_USERNAME/interview-atlas/issues/new?template=new_company.md)
+- 🐛 [Report Issues](https://github.com/UsmanBuk/interview-atlas/issues)
+- 💡 [Request Features](https://github.com/UsmanBuk/interview-atlas/issues/new?template=feature_request.md)
+- 🏢 [Add a Company](https://github.com/UsmanBuk/interview-atlas/issues/new?template=new_company.md)
 
 ---
 
